@@ -70,11 +70,11 @@ h3 {
   }
 }
 
-.about-section {
+.content-container {
   padding: 160px 20px;
 }
 
-.about-section h1 {
+.content h1 {
   font-family: "Playfair Display", serif;
   font-size: 64px;
   line-height: 80px;
@@ -82,14 +82,27 @@ h3 {
   color: #000000;
 }
 
-.about-section h2 {
+.content h2 {
   font-family: "Playfair Display", serif;
   font-size: 18px;
   font-weight: 700;
   color: #000000;
 }
 
-.about-section-content {
+.content p {
+  font-size: 14px;
+}
+
+.content h3 {
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  font-weight: 700;
+  color: #000000;
+  opacity: 10;
+}
+
+.content {
   margin: 30px;
 }
 
@@ -109,7 +122,8 @@ h3 {
 }
 
 .myphoto {
-  width: 400px;
+  max-width: 100%;
+  height: auto;
   border-radius: 10px;
 }
 
@@ -118,7 +132,7 @@ h3 {
     font-size: 44px;
     line-height: 56px;
   }
-  .about-section {
+  .content {
     text-align: center;
     padding: 0;
   }
