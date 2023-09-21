@@ -99,7 +99,8 @@ p {
 }
 
 .btn-branding:hover {
-  color: white;
+  color: black;
+  background-color: #6c63ff;
 }
 
 .btn-branding-outline {
@@ -115,10 +116,6 @@ p {
 .btn-branding-outline:hover {
   background: var(--branding-color);
   color: white;
-}
-
-.myphoto {
-  border-radius: 10px;
 }
 
 .project-desciption {
@@ -154,6 +151,45 @@ nav a {
 nav a:hover,
 nav li.active a {
   color: var(--branding-color);
+}
+
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background: var(--branding-color);
 }
 
 @media (max-width: 900px) {
